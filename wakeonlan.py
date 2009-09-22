@@ -46,7 +46,8 @@ def main():
         if ':' in sys.argv[1]:
             WakeOnLan(sys.argv[1])
     except IndexError:
-        print 'Usage:', sys.argv[0], '<MAC ADDRESS>'
+        print '''Usage:
+    python''', sys.argv[0], '<MAC ADDRESS>'
     return 0
 
 if __name__ == '__main__': main()

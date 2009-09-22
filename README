@@ -2,7 +2,7 @@ wakeonlan.py
 
 A simply python script to send the magic WOL packet to a specified MAC address.
 
-The packet consists of 16 "1"s followed by the MAC address 16 times.
+The packet consists of 6 bytes of ones followed by the MAC address 16 times.
 
 Usage:
 python wakeonlan.py <MAC ADDR>
